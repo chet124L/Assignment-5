@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Inter);
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+@import url(https://fonts.googleapis.com/css?family=Caveat);
+@import url(https://fonts.googleapis.com/css?family=Calistoga);
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(https://fonts.googleapis.com/css?family=Kanit);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa);
+
+
+.bg-light {
+    background-color: #1b2a48; /* Dark Blue */
+    background-image: linear-gradient(to bottom, #7f7fd5, #86a8e7); /* Gradient - Blue */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+}
+
+.navbar-light .navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    color: #f7b731; /* Gold */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6); /* Increased text shadow */
+}
+
+.nav-link {
+    font-family: 'Oswald', sans-serif;
+    color: #4834d4; /* Royal Blue */
+    text-decoration: none;
+    transition: color 0.5s; /* Increased transition duration */
+}
+
+.nav-link:hover {
+    color: #d63031; /* Red */
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1; /* Cloud Color */
+}
+
+.btn-primary {
+    background-color: #273c75; /* Dark Blue */
+}
+
+.btn-primary:hover {
+    background-color: #192a56; /* Darker Blue */
+}
+
+table tr:nth-child(odd) td {
+    background-color: #dcdde1; /* Gray */
+    background-image: linear-gradient(to bottom, #dcdde1, #bdc3c7); /* Gradient - Gray */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    color: #6c5ce7; /* Purple */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6); /* Increased text shadow */
+}
+
+a {
+    color: #3498db; /* Blue */
+}
+
+a:hover {
+    color: #1abc9c; /* Turquoise */
+}
+
+legend {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    color: #8e44ad; /* Dark Purple */
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6); /* Increased text shadow */
+}
